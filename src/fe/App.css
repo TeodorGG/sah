@@ -1,0 +1,39 @@
+.chessboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #add8e6; /* Albastru deschis */
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 2px solid #000080; /* Bordură neagră */
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  border: 1px solid #000080; /* Bordură neagră */
+}
+
+.white {
+  background-color: #ffffff; /* Alb */
+}
+
+.black {
+  background-color: #008000; /* Verde */
+}
+
+.coordinates {
+  color: #0000ff; /* Albastru */
+}
+
+.cell {
+  border: 1px solid #000080; /* Bordură neagră */
+}
